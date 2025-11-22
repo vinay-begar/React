@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    font-size: 10rem;
+    text-align: center;
+}
+
+.parent{
+    height: 10vh;
+    background-color: crimson;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+}
